@@ -83,3 +83,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ### Demo Video
 
 A short demonstration video is included, explaining the script's functionality and showing how it runs. The video was submitted to the instructor as a grading criteria
+
+# Note:
+There are two scripts in this repository. The first one is the `selenium_scraper.py` which is the modified script, and the second one is the `xScraper.py` which is the one used in the demo video. Reason for this is because according to the instructions given by Banao, we are to use Selenium or BeautifulSoup to scrape the data. Selenium would be a perfect tool to use because of the automated click and web navigattion capabilities which BeautifulSoup does not have. But using Selenium to scrape the needed data has proven to be a bit more challenging than I anticipated. Some elements were not as functional as I had initially expected them to be. As a result, I had to use `Tweepy API` to achieve the same results. The downside to the API is the rate limit, it takes more time to scrape using the API. So therefore, I submitted both files so as to show my approach to handling the task.
